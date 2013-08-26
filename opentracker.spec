@@ -24,7 +24,7 @@ make
 
 %install
 rm -rf %{buildroot}
-make install DESTDIR=%{buildroot}
+make install DESTDIR=%{buildroot} BINDIR="/usr/bin"
 
 
 %clean
@@ -34,6 +34,7 @@ rm -rf %{buildroot}
 %files
 %defattr(-,root,root,-)
 %doc
+%attr(0755,-,-) %{_bindir}/%{name}
 
 
 
