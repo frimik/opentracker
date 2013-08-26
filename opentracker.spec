@@ -9,6 +9,7 @@ URL:            https://github.com/frimik/opentracker
 Source0:        opentracker-%{version}.tar.gz
 
 BuildRequires:  libowfat-devel
+BuildRequires:  zlib-devel
 
 %description
 This is opentracker. An open bittorrent tracker.
