@@ -1,5 +1,5 @@
 Name:           opentracker
-Version:        0.4
+Version:        0.4.1
 Release:        1%{?dist}
 Summary:        An open and free bittorrent tracker.
 
@@ -41,6 +41,14 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.4.1-1
+- build requires zlib-devel (mfridh@ea.com)
+- RPM package of opentracker (mfridh@ea.com)
+
+* Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com>
+- build requires zlib-devel (mfridh@ea.com)
+- RPM package of opentracker (mfridh@ea.com)
+
 * Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.4-1
 - no live sync (mfridh@ea.com)
 
