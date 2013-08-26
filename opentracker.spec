@@ -6,7 +6,7 @@ Summary:        An open and free bittorrent tracker.
 #Group:          
 License:        Beerware
 URL:            https://github.com/frimik/opentracker
-Source0:        opentracker-%{version}-%{release}.tar.gz
+Source0:        opentracker-%{version}.tar.gz
 
 BuildRequires:  libowfat-devel
 
