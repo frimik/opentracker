@@ -19,7 +19,6 @@ This is opentracker. An open bittorrent tracker.
 
 
 %build
-#%configure
 make %{?_smp_mflags}
 
 
