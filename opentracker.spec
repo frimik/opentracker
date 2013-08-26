@@ -1,5 +1,5 @@
 Name:           opentracker
-Version:        0.2
+Version:        0.3
 Release:        1.20130826git%{?dist}
 Summary:        An open and free bittorrent tracker.
 
@@ -39,6 +39,10 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.3-1.20130826git
+- fii (mfridh@ea.com)
+- spec file (mfridh@ea.com)
+
 * Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.2-1.20130826git
 - new package built with tito
 
