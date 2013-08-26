@@ -1,6 +1,6 @@
 Name:           opentracker
 Version:        0.3
-Release:        1.20130826git%{?dist}
+Release:        1%{?dist}
 Summary:        An open and free bittorrent tracker.
 
 #Group:          
