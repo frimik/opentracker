@@ -1,5 +1,5 @@
 Name:           opentracker
-Version:        0.3
+Version:        0.4
 Release:        1%{?dist}
 Summary:        An open and free bittorrent tracker.
 
@@ -40,6 +40,15 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.4-1
+- no live sync (mfridh@ea.com)
+- spec fixes (mfridh@ea.com)
+- spec fixes (mfridh@ea.com)
+- spec fixes (mfridh@ea.com)
+- spec fixes (mfridh@ea.com)
+- more spec fixes (mfridh@ea.com)
+- don't configure (mfridh@ea.com)
+
 * Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.3-1.20130826git
 - fii (mfridh@ea.com)
 - spec file (mfridh@ea.com)
