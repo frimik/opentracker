@@ -24,7 +24,7 @@ make
 
 %install
 rm -rf %{buildroot}
-make install DESTDIR=%{buildroot} BINDIR="/usr/bin"
+make install DESTDIR=%{buildroot} BINDIR="%{buildroot}/usr/bin"
 
 
 %clean
