@@ -1,6 +1,6 @@
 Name:           opentracker
 Version:        0.4.1
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        An open and free bittorrent tracker.
 
 License:        Beerware
@@ -27,7 +27,7 @@ make
 rm -rf %{buildroot}
 install -d %{buildroot}%{_bindir}
 make install DESTDIR=%{buildroot} BINDIR="%{buildroot}%{_bindir}"
-install -uroot -groot -m644 -D contrib/supervisord.ini %{buildroot}/%{_sysconfdir}/supervisord.d/opentracker.ini
+install -m644 -D contrib/supervisord.ini %{buildroot}/%{_sysconfdir}/supervisord.d/opentracker.ini
 
 %clean
 rm -rf %{buildroot}
@@ -42,6 +42,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 28 2013 Mikael Fridh <mfridh@ea.com>
+- Fix install bug. (mfridh@ea.com)
+
 * Wed Aug 28 2013 Mikael Fridh <mfridh@ea.com> 0.4.1-2
 - Include a supervisor file (mfridh@ea.com)
 
