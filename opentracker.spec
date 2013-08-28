@@ -42,6 +42,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 28 2013 Mikael Fridh <mfridh@ea.com> 0.4.1-2
+- Include a supervisor file (mfridh@ea.com)
+
 * Mon Aug 26 2013 Mikael Fridh <mfridh@ea.com> 0.4.1-1
 - build requires zlib-devel (mfridh@ea.com)
 - RPM package of opentracker (mfridh@ea.com)
