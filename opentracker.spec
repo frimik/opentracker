@@ -42,6 +42,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Wed Aug 28 2013 Mikael Fridh <mfridh@ea.com> 0.4.1-3
+- Fix install bug. (mfridh@ea.com)
+
 * Wed Aug 28 2013 Mikael Fridh <mfridh@ea.com>
 - Fix install bug. (mfridh@ea.com)
 
